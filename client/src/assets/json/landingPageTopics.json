@@ -1,0 +1,350 @@
+{
+    "health_professionals": [
+        {
+            "label": "Growth",
+            "searchQuery": "categories=growth+and+development&audiences=Health+Professionals"
+        },
+        {
+            "label": "Allergies and intolerances",
+            "searchQuery": "subcategories=allergies+and+intolerances&audiences=Health+Professionals"
+        },
+        {
+            "label": "Multicultural eating practices",
+            "searchQuery": "subcategories=cultural+eating+practices&audiences=Health+Professionals"
+        }
+    ],
+    "atsi_1": [
+        {
+            "label": "Healthy mums",
+            "searchQuery": "categories=antenatal+diet+and+lifestyle&cultures=Aboriginal+And+Torres+Strait+Islander+Peoples"
+        },
+        {
+            "label": "Breastfeeding",
+            "searchQuery": "subcategories=breastfeeding&cultures=Aboriginal+And+Torres+Strait+Islander+Peoples"
+        },
+        {
+            "label": "Formula feeding",
+            "searchQuery": "subcategories=formula+feeding&cultures=Aboriginal+And+Torres+Strait+Islander+Peoples"
+        },
+        {
+            "label": "Iron",
+            "searchQuery": "subcategories=nutrients&cultures=Aboriginal+And+Torres+Strait+Islander+Peoples"
+        },
+        {
+            "label": "Introducing solids",
+            "searchQuery": "categories=introducing+solids&cultures=Aboriginal+And+Torres+Strait+Islander+Peoples"
+        },
+        {
+            "label": "Healthy eating",
+            "searchQuery": "subcategories=healthy+eating&cultures=Aboriginal+And+Torres+Strait+Islander+Peoples"
+        },
+        {
+            "label": "Healthy drinks",
+            "searchQuery": "subcategories=healthy+drinks&cultures=Aboriginal+And+Torres+Strait+Islander+Peoples"
+        },
+        {
+            "label": "Healthy habits & growth",
+            "searchQuery": "subcategories=healthy+habits+and+healthy+growth&cultures=Aboriginal+And+Torres+Strait+Islander+Peoples"
+        }
+    ],
+    "atsi_2": [
+        {
+            "label": "IAHA Workforce support",
+            "externalLink": "https://iaha.com.au/workforce-support/"
+        },
+        {
+            "label": "NACCHO - Find an Aboriginal Community Controlled Health Organisation",
+            "externalLink": "https://www.naccho.org.au/naccho-map/"
+        },
+        {
+            "label": "HealthInfoNet",
+            "externalLink": "https://healthinfonet.ecu.edu.au"
+        }
+    ],
+    "parents_and_families_1": [
+        {
+            "label": "Breastfeeding",
+            "searchQuery": "subcategories=breastfeeding&audiences=Parents+And+Families"
+        },
+        {
+            "label": "Formula feeding",
+            "searchQuery": "subcategories=formula+feeding&audiences=Parents+And+Families"
+        },
+        {
+            "label": "Introducing solids",
+            "searchQuery": "categories=introducing+solids&audiences=Parents+And+Families"
+        },
+        {
+            "label": "Iron rich foods",
+            "searchQuery": "tagname=iron&audiences=Parents+And+Families"
+        },
+        {
+            "label": "Recipes and snacks",
+            "searchQuery": "subcategories=recipes+and+meal+planning&audiences=Parents+And+Families"
+        },
+        {
+            "label": "Fussy eating",
+            "searchQuery": "subcategories=fussy+eating&audiences=Parents+And+Families"
+        },
+        {
+            "label": "Mealtime environments",
+            "searchQuery": "subcategories=mealtime+environment&audiences=Parents+And+Families"
+        },
+        {
+            "label": "Healthy eating",
+            "searchQuery": "subcategories=healthy+eating&audiences=Parents+And+Families"
+        },
+        {
+            "label": "Healthy drinks",
+            "searchQuery": "subcategories=healthy+drinks&audiences=Parents+And+Families"
+        },
+        {
+            "label": "Healthy habits and growth",
+            "searchQuery": "subcategories=healthy+habits+and+healthy+growth&audiences=Parents+And+Families"
+        },
+        {
+            "label": "Allergies & intolerances",
+            "searchQuery": "subcategories=allergies+and+intolerances&audiences=Parents+And+Families"
+        },
+        {
+            "label": "Tummy issues",
+            "searchQuery": "subcategories=tummy%2C+gut+and+mouth+problems&audiences=Parents+And+Families"
+        }
+    ],
+    "parents_and_families_2": [
+        {
+            "label": "Mental and emotional support for families",
+            "searchQuery": "h=true&ageGroups=Parental+Health&audiences=Parents+And+Families"
+        },
+        {
+            "label": "Podcasts",
+            "searchQuery": "h=true&resourceTypes=Podcast&audiences=Parents+And+Families"
+        },
+        {
+            "label": "Social media accounts",
+            "searchQuery": "h=true&resourceTypes=Social+Media&audiences=Parents+And+Families"
+        },
+        {
+            "label": "Nutrition books",
+            "searchQuery": "h=true&resourceTypes=Book+-+parents&audiences=Parents+And+Families"
+        },
+        {
+            "label": "Children's books",
+            "searchQuery": "h=true&resourceTypes=Book+-+children's&audiences=Parents+And+Families"
+        },
+        {
+            "label": "Parent workshops",
+            "searchQuery": "h=true&resourceTypes=Parent+workshop&audiences=Parents+And+Families"
+        }
+    ],
+    "ecec_1": [
+        {
+            "label": "Fussy eating and mealtime environment",
+            "searchQuery": "subcategories=fussy+eating%3Bmealtime+environment&audiences=Education+Professionals"
+        },
+        {
+            "label": "Healthy lifestyle",
+            "searchQuery": "categories=healthy+lifestyle&audiences=Education+Professionals"
+        },
+        {
+            "label": "Menu planning",
+            "searchQuery": "subcategories=menu+planning&audiences=Education+Professionals"
+        }
+    ],
+    "ecec_2": [
+        {
+            "label": "Healthy eating",
+            "searchQuery": "subcategories=healthy+eating&audiences=Parents+And+Families"
+        },
+        {
+            "label": "Fussy eating",
+            "searchQuery": "subcategories=fussy+eating&audiences=Parents+And+Families"
+        },
+        {
+            "label": "Healthy drinks",
+            "searchQuery": "subcategories=healthy+drinks&audiences=Parents+And+Families"
+        },
+        {
+            "label": "Lunchboxes",
+            "searchQuery": "subcategories=lunchboxes&audiences=Parents+And+Families"
+        }
+    ],
+    "resources_in_your_language": [
+        {
+            "name": "Tiếng Việt",
+            "label": "Vietnamese"
+        },
+        {
+            "name": "عربي",
+            "label": "Arabic"
+        },
+        {
+            "name": "Ελληνικά",
+            "label": "Greek"
+        },
+        {
+            "name": "हिन्दी",
+            "label": "Hindi"
+        },
+        {
+            "name": "Italiano",
+            "label": "Italian"
+        },
+        {
+            "name": "한국어",
+            "label": "Korean"
+        },
+        {
+            "name": "Tagalog",
+            "label": "Tagalog"
+        },
+        {
+            "name": "فارسی",
+            "label": "Persian"
+        },
+        {
+            "name": "درى",
+            "label": "Dari"
+        },
+        {
+            "name": "አማርኛ",
+            "label": "Amharic"
+        },
+        {
+            "name": "ܐܵܬܘܿܪܵܝܵܐ",
+            "label": "Assyrian"
+        },
+        {
+            "name": "Auslan",
+            "label": "Australian Sign Language"
+        },
+        {
+            "name": "বাংলা",
+            "label": "Bengali"
+        },
+        {
+            "name": "မြန်မာ",
+            "label": "Burmese"
+        },
+        {
+            "name": "Chin Hakha",
+            "label": "Chin Hakha"
+        },
+        {
+            "name": "简体中文",
+            "label": "Chinese Simplified"
+        },
+        {
+            "name": "繁體中文",
+            "label": "Chinese Traditional"
+        },
+        {
+            "name": "Hrvatski",
+            "label": "Croatian"
+        },
+        {
+            "name": "Jiɛ̈ɛ̈ŋ",
+            "label": "Dinka"
+        },
+        {
+            "name": "فارسی",
+            "label": "Farsi/Persian"
+        },
+        {
+            "name": "Français",
+            "label": "French"
+        },
+        {
+            "name": "Bahasa Indonesia",
+            "label": "Indonesian"
+        },
+        {
+            "name": "ကညီကျိ",
+            "label": "Karen"
+        },
+        {
+            "name": "ខ្មែរ",
+            "label": "Khmer"
+        },
+        {
+            "name": "Kirundi",
+            "label": "Kirundi"
+        },
+        {
+            "name": "کورمانجی",
+            "label": "Kurdish – Kurmanji"
+        },
+        {
+            "name": "سۆرانی",
+            "label": "Kurdish – Sorani"
+        },
+        {
+            "name": "ພາສາລາວ",
+            "label": "Lao"
+        },
+        {
+            "name": "македонски",
+            "label": "Macedonian"
+        },
+        {
+            "name": "Melayu",
+            "label": "Malay"
+        },
+        {
+            "name": "монгол",
+            "label": "Mongolian"
+        },
+        {
+            "name": "नेपाली",
+            "label": "Nepalese/Nepali"
+        },
+        {
+            "name": "Thok Naath",
+            "label": "Nuer"
+        },
+        {
+            "name": "پښتو",
+            "label": "Pashto"
+        },
+        {
+            "name": "ਪੰਜਾਬੀ",
+            "label": "Punjabi"
+        },
+        {
+            "name": "Soomaali",
+            "label": "Somali"
+        },
+        {
+            "name": "Español",
+            "label": "Spanish"
+        },
+        {
+            "name": "kiswahili",
+            "label": "Swahili"
+        },
+        {
+            "name": "தமிழ்",
+            "label": "Tamil"
+        },
+        {
+            "name": "แบบไทย",
+            "label": "Thai"
+        },
+        {
+            "name": "བོད་སྐད་",
+            "label": "Tibetan"
+        },
+        {
+            "name": "ትግርኛ",
+            "label": "Tigrinya"
+        },
+        {
+            "name": "Türkçe",
+            "label": "Turkish"
+        },
+        {
+            "name": "اردو",
+            "label": "Urdu"
+        }
+    ]
+}

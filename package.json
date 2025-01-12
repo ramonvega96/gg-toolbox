@@ -1,0 +1,10 @@
+{
+    "name": "nutritious-tools",
+    "version": "1.0.0",
+    "author": "eLIPSE",
+    "license": "UNLICENSED",
+    "repository": "https://bitbucket.org/elipse-team/nutritious-tools",
+    "scripts": {
+        "review": "cd client && yarn review && cd .. && cd server && yarn review"
+    }
+}

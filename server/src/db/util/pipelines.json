@@ -1,0 +1,208 @@
+{
+    "gg_resources_analytics": [
+        {
+            "$match": {
+                "type": 0
+            }
+        },
+        {
+            "$project": {
+                "_id": 0,
+                "input": 1,
+                "tags": {
+                    "$reduce": {
+                        "input": "$tags",
+                        "initialValue": "",
+                        "in": {
+                            "$cond": {
+                                "if": { "$eq": ["$$value", ""] },
+                                "then": { "$toLower": "$$this" },
+                                "else": {
+                                    "$concat": [
+                                        { "$toLower": "$$value" },
+                                        ", ",
+                                        { "$toLower": "$$this" }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "page": 1,
+                "sortingCriteria": {
+                    "$switch": {
+                        "branches": [
+                            {
+                                "case": {
+                                    "$eq": [
+                                        "$sortingCriteria",
+                                        { "relevance": 1 }
+                                    ]
+                                },
+                                "then": "relevance"
+                            },
+                            {
+                                "case": {
+                                    "$eq": [
+                                        "$sortingCriteria",
+                                        { "publicationDate": -1 }
+                                    ]
+                                },
+                                "then": "newest"
+                            },
+                            {
+                                "case": {
+                                    "$eq": [
+                                        "$sortingCriteria",
+                                        { "publicationDate": 1 }
+                                    ]
+                                },
+                                "then": "oldest"
+                            },
+                            {
+                                "case": {
+                                    "$eq": [
+                                        "$sortingCriteria",
+                                        { "resourceTitle": 1 }
+                                    ]
+                                },
+                                "then": "alphabetical (a-z)"
+                            },
+                            {
+                                "case": {
+                                    "$eq": [
+                                        "$sortingCriteria",
+                                        { "resourceTitle": -1 }
+                                    ]
+                                },
+                                "then": "alphabetical (z-a)"
+                            }
+                        ],
+                        "default": "default"
+                    }
+                },
+                "resourceTypesFilter": {
+                    "$reduce": {
+                        "input": "$filters.resourceTypes",
+                        "initialValue": "",
+                        "in": {
+                            "$cond": {
+                                "if": { "$eq": ["$$value", ""] },
+                                "then": { "$toLower": "$$this" },
+                                "else": {
+                                    "$concat": [
+                                        { "$toLower": "$$value" },
+                                        ", ",
+                                        { "$toLower": "$$this" }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "ageGroupsFilter": {
+                    "$reduce": {
+                        "input": "$filters.ageGroups",
+                        "initialValue": "",
+                        "in": {
+                            "$cond": {
+                                "if": { "$eq": ["$$value", ""] },
+                                "then": { "$toLower": "$$this" },
+                                "else": {
+                                    "$concat": [
+                                        { "$toLower": "$$value" },
+                                        ", ",
+                                        { "$toLower": "$$this" }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "languagesFilter": {
+                    "$reduce": {
+                        "input": "$filters.languages",
+                        "initialValue": "",
+                        "in": {
+                            "$cond": {
+                                "if": { "$eq": ["$$value", ""] },
+                                "then": { "$toLower": "$$this" },
+                                "else": {
+                                    "$concat": [
+                                        { "$toLower": "$$value" },
+                                        ", ",
+                                        { "$toLower": "$$this" }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "categoriesFilter": {
+                    "$reduce": {
+                        "input": "$filters.categories",
+                        "initialValue": "",
+                        "in": {
+                            "$cond": {
+                                "if": { "$eq": ["$$value", ""] },
+                                "then": { "$toLower": "$$this" },
+                                "else": {
+                                    "$concat": [
+                                        { "$toLower": "$$value" },
+                                        ", ",
+                                        { "$toLower": "$$this" }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "subcategoriesFilter": {
+                    "$reduce": {
+                        "input": "$filters.subcategories",
+                        "initialValue": "",
+                        "in": {
+                            "$cond": {
+                                "if": { "$eq": ["$$value", ""] },
+                                "then": { "$toLower": "$$this" },
+                                "else": {
+                                    "$concat": [
+                                        { "$toLower": "$$value" },
+                                        ", ",
+                                        { "$toLower": "$$this" }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "audiencesFilter": {
+                    "$reduce": {
+                        "input": "$filters.audiences",
+                        "initialValue": "",
+                        "in": {
+                            "$cond": {
+                                "if": { "$eq": ["$$value", ""] },
+                                "then": { "$toLower": "$$this" },
+                                "else": {
+                                    "$concat": [
+                                        { "$toLower": "$$value" },
+                                        ", ",
+                                        { "$toLower": "$$this" }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "resourceCount": 1,
+                "timestamp": 1
+            }
+        },
+        {
+            "$sort": {
+                "timestamp": -1
+            }
+        }
+    ]
+}

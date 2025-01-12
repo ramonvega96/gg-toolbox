@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'nut-icons';
+    src: url('fonts/nut-icons.eot?xegvp7');
+    src:
+        url('fonts/nut-icons.eot?xegvp7#iefix') format('embedded-opentype'),
+        url('fonts/nut-icons.ttf?xegvp7') format('truetype'),
+        url('fonts/nut-icons.woff?xegvp7') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^='icon-'],
+[class*=' icon-'] {
+    font-family: 'nut-icons' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    font-size: 4em;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-nut-solid-nut-at:before {
+    content: '\e900';
+}
+.icon-nut-solid-nut-baby:before {
+    content: '\e901';
+}
+.icon-nut-solid-nut-care:before {
+    content: '\e902';
+}
+.icon-nut-solid-nut-child:before {
+    content: '\e903';
+}
+.icon-nut-solid-nut-dislike:before {
+    content: '\e904';
+}
+.icon-nut-solid-nut-exclamation:before {
+    content: '\e905';
+}
+.icon-nut-solid-nut-family:before {
+    content: '\e906';
+}
+.icon-nut-solid-nut-free:before {
+    content: '\e907';
+}
+.icon-nut-solid-nut-hands:before {
+    content: '\e908';
+}
+.icon-nut-solid-nut-heart:before {
+    content: '\e909';
+}
+.icon-nut-solid-nut-instagram:before {
+    content: '\e90a';
+}
+.icon-nut-solid-nut-like:before {
+    content: '\e90b';
+}
+.icon-nut-solid-nut-list:before {
+    content: '\e90c';
+}
+.icon-nut-solid-nut-paid:before {
+    content: '\e90d';
+}
+.icon-nut-solid-nut-play:before {
+    content: '\e90e';
+}
+.icon-nut-solid-nut-puzzle:before {
+    content: '\e90f';
+}
+.icon-nut-solid-nut-tiktok:before {
+    content: '\e910';
+}
+.icon-nut-solid-nut-toddler:before {
+    content: '\e911';
+}
+.icon-nut-solid-nut-translate:before {
+    content: '\e912';
+}

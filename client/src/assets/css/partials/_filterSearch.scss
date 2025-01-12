@@ -1,0 +1,46 @@
+.filterSearchContainer {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 10px;
+
+    .horizontalRule {
+        height: 1px;
+        background-color: lightgrey;
+        border-radius: 2em;
+        margin-top: 1em;
+    }
+
+    .filterResults {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .filter {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+
+        .filterHeading {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .filterBody {
+            display: flex;
+            justify-content: flex-start;
+            gap: 5px;
+
+            &.column {
+                flex-direction: column;
+            }
+
+            .checkBox {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+            }
+        }
+    }
+}

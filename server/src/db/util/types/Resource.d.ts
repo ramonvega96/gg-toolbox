@@ -1,0 +1,30 @@
+export interface Resource {
+    resourceId: number;
+    resourceTitle: string;
+    resourceLink: string;
+    suite: string;
+    suiteLink: string;
+    publisher: string;
+    publisherLogo: string;
+    publicationDate: number;
+    resourceType: string;
+    resourceDescription: string;
+    category: string;
+    subcategory: string;
+    audience: string;
+    ageGroup: string;
+    translatedId: number;
+    translatedSubid: string;
+    language: string;
+    languageDisplay: string;
+    culture: string;
+    tags: string[];
+    userScore: number;
+    likesCount: number;
+    dislikesCount: number;
+    score: number;
+    scoreCriteria: number[];
+    original: boolean;
+    hidden: boolean;
+    state: string;
+}

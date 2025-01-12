@@ -1,0 +1,10 @@
+{
+    "NODE_ENV": "production",
+    "DATABASE_URL": "mongodb://localhost:27017/",
+    "DATABASE_NAME": "nutritious",
+    "DATABASE_TEST_NAME": "nutritious_test",
+    "PORT": 8000,
+    "JWT_SECRET": "GrowGoJWTSecret",
+    "JWT_EXPIRATION_TIME": 3600,
+    "ADMIN_ACCESS_COOKIE_NAME": "ADMIN_ACCESS"
+}

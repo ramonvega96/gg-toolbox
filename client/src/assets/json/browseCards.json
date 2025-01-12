@@ -1,0 +1,197 @@
+{
+    "breast-formula-feeding": {
+        "title": "Breastfeeding and formula feeding",
+        "cards": [
+            {
+                "title": "Breastfeeding",
+                "bulletPoints": "Establishing breastfeeding;Advice on feeding practices and positions;Maternal care and support",
+                "searchTerm": "Breastfeeding"
+            },
+            {
+                "title": "Formula feeding",
+                "bulletPoints": "How to make and use infant formula;Infant formula guides;Bottle feeding practices",
+                "searchTerm": "Formula%20Feeding"
+            },
+            {
+                "title": "Expressing",
+                "bulletPoints": "How to express;Breast pumps and equipment;Storing expressed breastmilk",
+                "searchTerm": "Expressing"
+            },
+            {
+                "title": "Troubleshooting",
+                "bulletPoints": "Common concerns for mothers, e.g., mastitis, diet;Common concerns for babies, e.g., reflux, tongue-tie",
+                "searchTerm": "Troubleshooting"
+            },
+            {
+                "title": "Safety",
+                "bulletPoints": "Safe formula preparation;Bottle sterilising;Alcohol and medicines when breastfeeding",
+                "searchTerm": "Safety"
+            }
+        ]
+    },
+    "intro-to-solids": {
+        "title": "Introducing solids",
+        "cards": [
+            {
+                "title": "First foods",
+                "bulletPoints": "How to introduce solids;Appropriate textures;Iron rich foods",
+                "searchTerm": "First%20Foods"
+            },
+            {
+                "title": "Finger foods",
+                "bulletPoints": "What are finger foods;When to introduce finger foods;Appropriate finger foods by age",
+                "searchTerm": "Finger%20Foods"
+            },
+            {
+                "title": "Food safety",
+                "bulletPoints": "Food safety when preparing and storing baby foods",
+                "searchTerm": "Food%20Safety"
+            },
+            {
+                "title": "Good habits",
+                "bulletPoints": "Recommendations for types and amounts of foods by age;Tips on healthy habits for mealtimes;Weaning tips",
+                "searchTerm": "Good%20Habits"
+            }
+        ]
+    },
+    "mealtimes": {
+        "title": "Mealtimes",
+        "cards": [
+            {
+                "title": "Fussy eating",
+                "bulletPoints": "Advice on how to manage fussy eating;Having fun with food;Introducing new foods",
+                "searchTerm": "Fussy%20Eating"
+            },
+            {
+                "title": "Mealtime environment",
+                "bulletPoints": "Role modelling and routines;Setting up a positive mealtime environment;Talking about food",
+                "searchTerm": "Mealtime%20Environment"
+            },
+            {
+                "title": "Eating on a budget",
+                "bulletPoints": "Tips for staying on budget",
+                "searchTerm": "Eating%20On%20A%20Budget"
+            },
+            {
+                "title": "Recipes and meal planning",
+                "bulletPoints": "Meal and snack recipes;Meal planning resources",
+                "searchTerm": "Recipes%20And%20Meal%20Planning"
+            },
+            {
+                "title": "Lunchboxes",
+                "bulletPoints": "Lunchbox guides;Recipes",
+                "searchTerm": "Lunchboxes"
+            }
+        ]
+    },
+    "healthy-lifestyle": {
+        "title": "Healthy lifestyles",
+        "cards": [
+            {
+                "title": "Healthy habits and growth",
+                "bulletPoints": "General healthy eating advice;Food labelling and food safety;Food related activities for children",
+                "searchTerm": "Healthy%20Habits%20And%20Healthy%20Growth"
+            },
+            {
+                "title": "Healthy eating",
+                "bulletPoints": "Advice on types and amounts of foods;Cooking with children",
+                "searchTerm": "Healthy%20Eating"
+            },
+            {
+                "title": "Healthy drinks",
+                "bulletPoints": "Importance of water;Advice on types and amounts of drinks;Weaning",
+                "searchTerm": "Healthy%20Drinks"
+            },
+            {
+                "title": "Portion sizes",
+                "bulletPoints": "Types and amounts of foods and drinks by age;Dietary guidelines",
+                "searchTerm": "Portion%20Sizes"
+            },
+            {
+                "title": "Plant based eating",
+                "bulletPoints": "Vegetarian or vegan diets",
+                "searchTerm": "Plant%20Based%20Eating"
+            },
+            {
+                "title": "Physical activity",
+                "bulletPoints": "Physical activity ideas for children;Screentime and sedentary activity",
+                "searchTerm": "Physical%20Activity"
+            },
+            {
+                "title": "Sleep",
+                "bulletPoints": "Good sleep habits for children",
+                "searchTerm": "Sleep"
+            },
+            {
+                "title": "Dental health",
+                "bulletPoints": "Teething;Tooth development;Oral health advice",
+                "searchTerm": "Dental%20Health"
+            }
+        ]
+    },
+    "growth": {
+        "title": "Growth",
+        "cards": [
+            {
+                "title": "Developmental milestones",
+                "bulletPoints": "Nutritional developmental milestones by age;Physical, sensory and oral development by age",
+                "searchTerm": "Developmental%20Milestones"
+            },
+            {
+                "title": "Growth charts",
+                "bulletPoints": "WHO growth charts;CDC growth charts;Typical growth patterns",
+                "searchTerm": "Growth%20Charts"
+            }
+        ]
+    },
+    "health-concerns": {
+        "title": "Health Concerns",
+        "cards": [
+            {
+                "title": "Allergies and intolerances",
+                "bulletPoints": "Allergy prevention;Allergy management",
+                "searchTerm": "Allergies%20And%20Intolerances"
+            },
+            {
+                "title": "Tummy, gut and mouth problems",
+                "bulletPoints": "Advice for managing gut issues like constipation;Advice for managing tummy issues like reflux",
+                "searchTerm": "Tummy%2C%20Gut%20And%20Mouth%20Problems"
+            },
+            {
+                "title": "Neurodevelopmental",
+                "bulletPoints": "Healthy eating for children with neurodevelopmental conditions;Taste, texture and sensory issues",
+                "searchTerm": "Neurodevelopmental"
+            },
+            {
+                "title": "Growth concerns",
+                "bulletPoints": "Under or over nutrition ",
+                "searchTerm": "Growth%20Concerns"
+            },
+            {
+                "title": "Nutrients",
+                "bulletPoints": "Good food sources of vitamins and minerals;Vitamin and mineral requirements by age;Managing vitamin and mineral deficiencies",
+                "searchTerm": "Nutrients"
+            }
+        ]
+    },
+    "ECEC": {
+        "title": "Early childhood education setting",
+        "cards": [
+            {
+                "title": "Menu planning",
+                "bulletPoints": "Menu planning resources;Allergy management;Food safety guidelines and practices",
+                "searchTerm": "Menu%20Planning"
+            },
+            {
+                "title": "Guidelines",
+                "bulletPoints": "Dietary guidelines and policies for early education settings",
+                "searchTerm": "Guidelines%20And%20Policies"
+            },
+            {
+                "title": "Professional development and training",
+                "bulletPoints": "Allergy management and food safety programs;Nutrition knowledge programs;Resources on communicating with families ",
+                "searchTerm": "Professional%20Development%20And%20Training"
+            }
+        ]
+    }
+}

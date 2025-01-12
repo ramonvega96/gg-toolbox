@@ -1,0 +1,44 @@
+//font
+@import url('https://fonts.googleapis.com/css?family=Lato|Lexend+Deca|Material+Icons&display=swap');
+@import url('https://use.fontawesome.com/releases/v6.1.1/css/all.css');
+// @import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'node_modules/react-tooltip/dist/react-tooltip';
+@import '../icons/old/nut-icons.css';
+@import '../icons/contact/style.css';
+@import '../icons/header/style.css';
+
+//Component Partials
+@import 'partials/variables';
+@import 'partials/resourceCard';
+@import 'partials/filterSearch';
+@import 'partials/_header';
+//Pages
+@import 'partials/home';
+
+//Fonts
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+h4 {
+    margin: 0;
+}
+
+h5 {
+    margin: 0;
+}
+
+.demoContainer {
+    width: 500px;
+}
+
+//Added below line so that the page width is not increased for graphics that are meant to be off the page
+body {
+    overflow-x: hidden;
+}

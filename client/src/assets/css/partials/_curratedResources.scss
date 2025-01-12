@@ -1,0 +1,106 @@
+#daily-resource-card-container {
+    padding-bottom: 3em;
+}
+
+#currated-resource-container {
+    height: auto;
+    object-fit: contain;
+    z-index: 0;
+    position: relative;
+    box-shadow: 0px 0.4em var(--primary-blue);
+}
+
+#resource-content {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+#currated-heading {
+    color: var(--secondary-blue);
+    padding: 2em 5em 1em 5em;
+}
+
+#linebreak {
+    margin: 1em 3em 1em 3em;
+    border-top: 2px solid var(--secondary-blue);
+}
+
+#currated-row {
+    margin: 0px 2vw 5vh 1vw;
+}
+
+#help-me-image {
+    background-color: rebeccapurple;
+    height: auto;
+    background-image: url('../../images/placeholders/coffee_gradient.png');
+    background-size: cover;
+}
+
+//buttons in the currated resource section
+.collection-big-button {
+    width: 100%;
+    height: 10vh;
+    background-color: transparent;
+    border: 1px dashed transparent;
+    border-radius: 1em;
+
+    .collection-description {
+        color: var(--secondary-blue);
+        font-size: 1.4rem;
+    }
+
+    &:hover {
+        box-shadow: 2px 2px 15px #fff6d7;
+
+        .collection-description {
+            color: #fff6d7;
+        }
+    }
+
+    &.version-1 {
+        &:hover {
+            border: 1px dashed transparent;
+            background-color: var(--secondary-pink);
+        }
+    }
+
+    &.version-2 {
+        &:hover {
+            border: 1px dashed transparent;
+            background-color: var(--secondary-green);
+        }
+    }
+
+    &.version-3 {
+        &:hover {
+            border: 1px dashed transparent;
+            background-color: var(--secondary-yellow);
+        }
+    }
+
+    &.version-4 {
+        &:hover {
+            border: 1px dashed transparent;
+            background-color: var(--secondary-red);
+        }
+    }
+
+    &.version-5 {
+        &:hover {
+            border: 1px dashed transparent;
+            background-color: var(--secondary-orange);
+        }
+    }
+
+    &.version-6 {
+        &:hover {
+            border: 1px dashed transparent;
+            background-color: var(--primary-blue);
+        }
+    }
+}
+
+.collection-icons {
+    color: var(--secondary-blue);
+    font-size: 4em;
+}

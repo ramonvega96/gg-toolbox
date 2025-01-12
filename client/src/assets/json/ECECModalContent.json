@@ -1,0 +1,67 @@
+{
+    "NT": {
+        "stateDescription": "NT has policies for daycare centres and then separate ones for schools which includes kindy (4-5yrs). Select the one most relevant to you.",
+        "buttons": [
+            {
+                "linkLabel": "Child care centre menu planner",
+                "link": "https://digitallibrary.health.nt.gov.au/prodjspui/bitstream/10137/665/1/Child%20Care%20Centre%20Menu%20Planner.pdf"
+            },
+            {
+                "linkLabel": "School nutrition and healthy eating",
+                "link": "https://education.nt.gov.au/policies/health-safety/school-nutrition-and-healthy-eating"
+            }
+        ]
+    },
+    "NSW": {
+        "stateDescription": "NSW has policies for daycare centres and then separate ones for schools which includes kindy (4-5yrs). Select the one most relevant to you.",
+        "buttons": [
+            {
+                "linkLabel": "Menu Planning resources",
+                "link": "https://www.goodforkids.nsw.gov.au/early-childhood-services/resources/menu-planning"
+            },
+            {
+                "linkLabel": "Healthy school canteens",
+                "link": "https://education.nsw.gov.au/student-wellbeing/whole-school-approach/healthy-canteens"
+            }
+        ]
+    },
+    "VIC": {
+        "stateDescription": "VIC has policies for daycare centres and then separate ones for schools which includes kindy (4-5yrs). Select the one most relevant to you.",
+        "buttons": [
+            {
+                "linkLabel": "Free support to provide healthy foods and drinks in your child care service.",
+                "link": "https://heas.health.vic.gov.au/early-childhood-services"
+            },
+            {
+                "linkLabel": "Free support to provide and promote healthy foods and drinks in your school",
+                "link": "https://heas.health.vic.gov.au/schools"
+            }
+        ]
+    },
+    "TAS": {
+        "stateDescription": "TAS has policies for daycare centres and then separate ones for schools which includes kindy (4-5yrs). Select the one most relevant to you.",
+        "buttons": [
+            {
+                "linkLabel": "Early childhood services",
+                "link": "https://www.movewelleatwell.tas.gov.au/early_childhood_services"
+            },
+            {
+                "linkLabel": "Primary School services",
+                "link": "https://www.movewelleatwell.tas.gov.au/primary_schools"
+            }
+        ]
+    },
+    "ACT": {
+        "stateDescription": "ACT has policies for daycare centres and then separate ones for schools which includes kindy (4-5yrs). Select the one most relevant to you.",
+        "buttons": [
+            {
+                "linkLabel": "Childcare menu planning tool",
+                "link": "https://actnss.org/resources/childcare-menu-planning-tool/?highlight=Menu%20Planning%20in%20Childcare"
+            },
+            {
+                "linkLabel": "ACT Public School food and drink Policy",
+                "link": "https://www.education.act.gov.au/publications_and_policies/School-and-Corporate-Policies/school-administration-and-management/food-and-drink/act-public-school-food-and-drink-policy/act-public-school-food-and-drink-policy"
+            }
+        ]
+    }
+}

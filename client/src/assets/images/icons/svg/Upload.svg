@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg2"
+   width="126.40613"
+   height="126.406"
+   viewBox="0 0 126.40613 126.406"
+   sodipodidocname="Upload.ai"
+   xmlnsinkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlnssodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlnssvg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath16">
+      <path
+         d="M 0,94.805 H 94.805 V 0 H 0 Z"
+         id="path14" />
+    </clipPath>
+  </defs>
+  <sodipodiNamedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscapeshowpageshadow="2"
+     inkscapepageopacity="0.0"
+     inkscapepagecheckerboard="0"
+     inkscapedeskcolor="#d1d1d1" />
+  <g
+     id="g8"
+     inkscapegroupmode="layer"
+     inkscapelabel="Upload"
+     transform="matrix(1.3333333,0,0,-1.3333333,0,126.406)">
+    <g
+       id="g10">
+      <g
+         id="g12"
+         clip-path="url(#clipPath16)">
+        <g
+           id="g18"
+           transform="translate(77.4653,38.6314)">
+          <path
+             d="m 0,0 c 0,-8.271 -6.729,-15 -15,-15 h -30.126 c -8.271,0 -15,6.729 -15,15 v 7.263 c 0,1.656 1.343,3 3,3 1.657,0 3,-1.344 3,-3 V 0 c 0,-4.962 4.037,-9 9,-9 H -15 c 4.963,0 9,4.038 9,9 v 7.263 c 0,1.656 1.343,3 3,3 1.657,0 3,-1.344 3,-3 z m -43.897,22.365 11.456,11.456 c 0.156,0.156 0.328,0.296 0.513,0.419 0.084,0.057 0.175,0.095 0.263,0.143 0.104,0.057 0.205,0.12 0.315,0.166 0.112,0.046 0.228,0.073 0.344,0.107 0.095,0.028 0.186,0.065 0.284,0.084 0.435,0.087 0.883,0.087 1.317,0 0.099,-0.019 0.189,-0.056 0.284,-0.084 0.116,-0.034 0.233,-0.06 0.345,-0.107 0.11,-0.046 0.21,-0.108 0.314,-0.165 0.088,-0.048 0.18,-0.087 0.264,-0.144 0.185,-0.123 0.357,-0.262 0.513,-0.418 l 11.456,-11.457 c 1.314,-1.313 1.314,-3.443 0,-4.756 -1.313,-1.313 -3.442,-1.313 -4.756,0 L -26.7,23.324 V -0.964 c 0,-1.857 -1.506,-3.363 -3.363,-3.363 -1.857,0 -3.363,1.506 -3.363,3.363 v 24.288 l -5.715,-5.715 c -1.314,-1.313 -3.443,-1.313 -4.756,0 v 0 c -1.314,1.314 -1.314,3.443 0,4.756 m 36.716,27.909 c -22.921,12.638 -51.748,4.301 -64.386,-18.621 -12.637,-22.922 -4.3,-51.748 18.622,-64.386 22.921,-12.637 51.748,-4.3 64.386,18.621 12.637,22.922 4.3,51.749 -18.622,64.386"
+             style="fill:#white;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path20" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

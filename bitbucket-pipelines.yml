@@ -1,0 +1,99 @@
+image: node:20
+pipelines:
+  branches:
+    develop:
+      - step:
+          name: "Prepare build"
+          script:
+            - unset CI
+            - apt-get update && apt-get install gettext-base
+            - mkdir tmp
+            - mkdir tmp/server && mkdir tmp/client
+            - cd server
+            - yarn
+            - cat config.prod.json | envsubst > config.json
+            - yarn build
+            - cp -R dist/ ../tmp/server
+            - cp -R node_modules/ ../tmp/server
+            - cd ../client
+            - cat .env.example.prod | envsubst > .env
+            - yarn
+            - yarn build
+            - cp -R build/ ../tmp/client
+            - cd ../ && tar -czvf nutritious.tar.gz tmp/
+          artifacts:
+            - nutritious.tar.gz
+      - step:
+          name: "Deploy to zone"
+          script:
+            # Install the triton and manta tools
+            - npm install -g git+https://github.com/eait-itig/node-triton#eait
+            - npm install -g manta
+
+            # Set up our profile
+            - triton profile create -f .triton.json
+            - eval "$(triton env uqcloud)"
+            - export MANTA_URL=https://stluc.manta.uqcloud.net
+
+            # Start an SSH agent with the bitbucket SSH key in it, we will use this for auth
+            - export KEYPATH=$(cat ~/.ssh/config | grep '^IdentityFile' | awk '{print $2}')
+            - eval $(ssh-agent)
+            - ssh-add ${KEYPATH}
+
+            # Now upload the tarball
+            - mput -f nutritious.tar.gz /elipse/stor/builds/deploy-${BITBUCKET_BUILD_NUMBER}.tar.gz --account=elipse --subuser=piper --role-tag=bitbucket-pipe
+            - export TARBALL="$(msign /elipse/stor/builds/deploy-${BITBUCKET_BUILD_NUMBER}.tar.gz)"
+
+            # And the actual deploy steps on each zone
+            - triton --act-as=elipse inst exec $UAT_ZONE -- /bin/sh -c "cd /opt/ && rm -rf tmp && mkdir tmp/ &&
+              curl \"${TARBALL}\" | tar -C tmp/ -zxvf - &&
+              rm -rf /opt/server && cp -R /opt/tmp/tmp/server /opt && rm -rf /var/www/client && cp -R /opt/tmp/tmp/client /var/www/ &&
+              systemctl restart nutritious && mkdir -p /opt/server/dist/src/db/data/dump-data-files && mkdir -p /opt/server/dist/src/db/data/backup-data-files && mkdir -p /opt/server/dist/src/db/data/links-testing-logs"
+    main:
+      - step:
+          name: "Prepare build"
+          script:
+            - unset CI
+            - apt-get update && apt-get install gettext-base
+            - mkdir tmp
+            - mkdir tmp/server && mkdir tmp/client
+            - cd server
+            - yarn
+            - cat config.prod.json | envsubst > config.json
+            - yarn build
+            - cp -R dist/ ../tmp/server
+            - cp -R node_modules/ ../tmp/server
+            - cd ../client
+            - cat .env.example.prod | envsubst > .env
+            - yarn
+            - yarn build
+            - cp -R build/ ../tmp/client
+            - cd ../ && tar -czvf nutritious.tar.gz tmp/
+          artifacts:
+            - nutritious.tar.gz
+      - step:
+          name: "Deploy to zone"
+          script:
+            # Install the triton and manta tools
+            - npm install -g git+https://github.com/eait-itig/node-triton#eait
+            - npm install -g manta
+
+            # Set up our profile
+            - triton profile create -f .triton.json
+            - eval "$(triton env uqcloud)"
+            - export MANTA_URL=https://stluc.manta.uqcloud.net
+
+            # Start an SSH agent with the bitbucket SSH key in it, we will use this for auth
+            - export KEYPATH=$(cat ~/.ssh/config | grep '^IdentityFile' | awk '{print $2}')
+            - eval $(ssh-agent)
+            - ssh-add ${KEYPATH}
+
+            # Now upload the tarball
+            - mput -f nutritious.tar.gz /elipse/stor/builds/deploy-${BITBUCKET_BUILD_NUMBER}.tar.gz --account=elipse --subuser=piper --role-tag=bitbucket-pipe
+            - export TARBALL="$(msign /elipse/stor/builds/deploy-${BITBUCKET_BUILD_NUMBER}.tar.gz)"
+
+            # And the actual deploy steps on each zone
+            - triton --act-as=elipse inst exec $PROD_ZONE -- /bin/sh -c "cd /opt/ && rm -rf tmp && mkdir tmp/ &&
+              curl \"${TARBALL}\" | tar -C tmp/ -zxvf - &&
+              rm -rf /opt/server && cp -R /opt/tmp/tmp/server /opt && rm -rf /var/www/client && cp -R /opt/tmp/tmp/client /var/www/ &&
+              systemctl restart nutritious && mkdir -p /opt/server/dist/src/db/data/dump-data-files && mkdir -p /opt/server/dist/src/db/data/backup-data-files && mkdir -p /opt/server/dist/src/db/data/links-testing-logs"

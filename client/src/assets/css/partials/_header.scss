@@ -1,0 +1,68 @@
+//CSS for the header container
+#header-container {
+    padding: 1.5em 4em 2em 4em;
+}
+
+//CSS for the header logo
+#header-logo {
+    width: 16vw;
+}
+
+//CSS for the header "sign up for updates here!"
+#sign-up-prompt {
+    background-color: var(--primary-blue);
+    text-align: center;
+    color: white;
+    animation: slideDown 0.4s linear;
+
+    &:hover {
+        text-decoration: underline white;
+    }
+}
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(-2em);
+    }
+}
+
+#sign-up-prompt-text {
+    color: white;
+    font-weight: 500;
+    font-size: 1.2em;
+    margin: 0.2em;
+    font-family: 'forma-djr-micro';
+    text-decoration: none;
+}
+
+//CSS for the header side navbar
+#navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    justify-content: right;
+    margin-top: 1em;
+
+    .navbar-label {
+        color: black;
+        margin-top: 0.5em;
+        font-size: 2vh;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+            color: gray;
+        }
+    }
+}
+
+.form-control {
+    font-family: 'forma-djr-micro';
+}
+
+//CSS for the tab bar underneath the header
+#tabs {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}

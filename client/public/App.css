@@ -1,0 +1,35 @@
+.mobileContainer {
+  background-color: white;
+  width: 100vw;
+  display: inline-block;
+  margin: 0 auto; }
+
+.mobileHeader {
+  width: 100vw;
+  height: 75px;
+  display: inline-flex;
+  margin: 0 auto;
+  top: 0;
+  border-bottom: 1px solid black; }
+
+.mobileFilters {
+  width: 100vw;
+  height: 200px;
+  display: inline-flex;
+  margin: 0 auto;
+  top: 76;
+  border-bottom: 1px solid black; }
+
+.mobileSort {
+  width: 100vw;
+  display: inline-flex;
+  margin: 0 auto;
+  top: 277; }
+
+.mobileFooter {
+  width: 100vw;
+  height: 75px;
+  position: fixed;
+  margin: 0 auto;
+  bottom: 0;
+  border-top: 1px solid black; }
