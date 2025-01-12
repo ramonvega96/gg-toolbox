@@ -13,7 +13,7 @@ export const ApplicationServer = (
     config: ConfigType,
     container: IContainer
 ) => {
-    const app = expressApp();
+    const app = expressApp(config);
 
     const router = ApplicationRouter(container);
 
@@ -37,7 +37,9 @@ export const ApplicationServer = (
  * Returns a new configured express app
  * @param config
  */
-export function expressApp() {
+export function expressApp(
+    config: ConfigType
+    ) {
     // Application
     const app = express();
 
@@ -46,7 +48,7 @@ export function expressApp() {
     app.use(
         cors({
             credentials: true,
-            origin: ['http://localhost:3000', /\.uqcloud\.net$/],
+            origin: [config.CLIENT_ORIGIN, /\.uqcloud\.net$/],
         })
     );
 
