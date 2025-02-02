@@ -18,11 +18,13 @@ services:
     volumes:
       - ./server:/home/node/app
       - /home/node/app/node_modules
+      - ~/.aws:/root/.aws:ro
     ports:
       - "8000:8000"
     working_dir: /home/node/app
     environment:
       - NODE_ENV=development
+      - AWS_DEFAULT_REGION=ap-southeast-2
     depends_on:
       - mongodb
   client:

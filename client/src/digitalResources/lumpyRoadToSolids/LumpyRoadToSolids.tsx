@@ -103,10 +103,10 @@ function LumpyRoadToSolids() {
                 text={messages.formatMessage({
                     id: 'lumpyRoadToSolidsText',
                 })}
-                externalLink="https://indd.adobe.com/view/42697734-81d3-431a-87c1-999058c94ed6"
+                externalLink="https://indd.adobe.com/view/73c5655b-5c8f-428a-858a-c484e6850193"
                 paddingY="xs:py-8 xl:py-16"
                 secondaryButtonText="Download the Cheatsheet"
-                secondaryButtonLink="https://indd.adobe.com/view/a7f9bfac-d0fd-466c-b450-9858d7c7ea77"
+                secondaryButtonLink="https://indd.adobe.com/view/607b61d2-408f-4b4a-9486-d7f78cc8312b"
             />
             <LumpyRoadBrowser displayModal={buildBrowserModal} />
             <LumpyRoadMobile displayModal={buildMobileModal} />

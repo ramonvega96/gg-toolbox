@@ -214,10 +214,7 @@ export default (resourceService: IResourceService): IResourceController => {
                 const resp = await resourceService.exportResources();
                 if (!resp?.success) throw new Error(resp.message);
 
-                const filePath =
-                    config.NODE_ENV === 'production'
-                        ? './dist/src/db/data/dump-data-files/resources_data.csv'
-                        : './src/db/data/dump-data-files/resources_data.csv';
+                const filePath = './src/db/data/dump-data-files/resources_data.csv';
 
                 res.download(filePath, (err) => {
                     if (err) {
@@ -387,10 +384,7 @@ export default (resourceService: IResourceService): IResourceController => {
                         'Expired or inexistent admin session. Login required'
                     );
 
-                const filePath =
-                    config.NODE_ENV === 'production'
-                        ? './dist/src/db/data/links-testing-logs/resources_links_logs.csv'
-                        : './src/db/data/links-testing-logs/resources_links_logs.csv';
+                const filePath = './src/db/data/links-testing-logs/resources_links_logs.csv';
 
                 try {
                     await fs.access(filePath);

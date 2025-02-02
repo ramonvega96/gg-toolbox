@@ -302,9 +302,9 @@ function ReadingFormulaLabels() {
                     id: 'tinsResourceText',
                 })}
                 btn1Text="Download the PDF"
-                btn1Link="https://indd.adobe.com/view/640601dc-e9ff-49a1-949f-e486ef643430"
+                btn1Link="https://indd.adobe.com/view/85ab592e-9b50-499d-b083-c9b4f4581539"
                 btn2Text="Download the Cheatsheet"
-                btn2Link="https://indd.adobe.com/view/32523d56-990e-448f-9187-9ee4200aea7f"
+                btn2Link="https://indd.adobe.com/view/cffc7f01-63b1-4da7-995f-2bd46ec1c622"
                 btn3Text="Infant formula: Making, storing and transporting it"
                 btn3Link="https://raisingchildren.net.au/newborns/breastfeeding-bottle-feeding/bottle-feeding/formula-making-storing-transporting"
                 panel={formulaTin}

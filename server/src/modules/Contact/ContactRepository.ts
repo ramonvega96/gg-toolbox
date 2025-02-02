@@ -1,7 +1,8 @@
 import { FailReturn, failure, success } from '../../helpers/Result';
 import { SuccessReturn } from '../../helpers/Result';
-import { sendMail } from '../../helpers/EmailHelper';
 import { ContactForm, ResourceSubmission } from './Contact';
+import { sendSESMail, sendSESMailAttachment } from '../../helpers/EmailHelperSES';
+
 export interface IContactRepository {
     forwardContactMessage(
         contactForm: ContactForm
@@ -24,7 +25,7 @@ export default (): IContactRepository => {
                     <p><b>Date:</b> ${contactForm.timestamp}</p>
                 </div>`;
 
-                await sendMail('New message from GrowGo user', htmlMessage);
+                await sendSESMail('New message from GrowGo user', htmlMessage);
                 return success(contactForm);
             } catch (error) {
                 return failure('Unable to process message');
@@ -52,14 +53,14 @@ export default (): IContactRepository => {
                 </div>`;
 
                 if (typeof resourceSubmission.resource !== 'object')
-                    await sendMail(
+                    await sendSESMail(
                         'New resource submitted by GrowGo user',
                         htmlMessage
                     );
                 else {
                     const attachmentFile =
                         resourceSubmission.resource as unknown as Express.Multer.File;
-                    await sendMail(
+                    await sendSESMailAttachment(
                         'New resource submitted by GrowGo user',
                         htmlMessage,
                         [

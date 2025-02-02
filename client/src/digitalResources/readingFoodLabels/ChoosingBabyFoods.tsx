@@ -521,9 +521,9 @@ function ChoosingBabyFoods() {
                     id: 'babyFoodsResourceText',
                 })}
                 btn1Text="Download the PDF"
-                btn1Link="https://indd.adobe.com/view/897dcb94-a2fb-421d-a4e0-d63248fb8df0"
+                btn1Link="https://indd.adobe.com/view/177e5c71-4491-4c87-9dd6-139163c1bf68"
                 btn2Text="Download the Cheatsheet"
-                btn2Link="https://indd.adobe.com/view/6d944b34-6e5b-4a15-8cdf-224567c620e5"
+                btn2Link="https://indd.adobe.com/view/94d6b281-0594-41ec-b481-166d39c9866d"
                 btn3Text="Start them right"
                 btn3Link="https://www.health.tas.gov.au/sites/default/files/2021-12/Start_Them_Right_booklet_DoHTasmania2019.pdf"
                 panel={babyFoodPouch}
