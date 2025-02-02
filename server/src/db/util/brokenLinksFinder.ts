@@ -4,7 +4,8 @@ import { ILink, Service } from './types/FHP';
 import config from '../../../config.json';
 import path from 'path';
 import * as fs from 'fs/promises';
-import { sendMail } from '../../../src/helpers/EmailHelper';
+import { sendSESMail } from '../../helpers/EmailHelperSES';
+
 
 const parentDir = path.dirname(__dirname);
 const linksTestingLogs = `${parentDir}/data/links-testing-logs`;
@@ -325,7 +326,7 @@ export const exec = async (endpointCall: boolean, pathwayArg?: string) => {
             );
             process.exit(0);
         } else {
-            sendMail(
+            sendSESMail(
                 'Broken links finder - Result',
                 'Broken links finder script execution FINISHED. Access admin panel to download the latest version.'
             );
@@ -337,9 +338,9 @@ export const exec = async (endpointCall: boolean, pathwayArg?: string) => {
         if (!endpointCall) {
             process.exit(1);
         } else {
-            sendMail(
+            sendSESMail(
                 'Broken links finder - Result',
-                'Broken links finder script execution FAILED. Access admin panel to execuite it again.'
+                'Broken links finder script execution FAILED. Access admin panel to execute it again.'
             );
         }
     }

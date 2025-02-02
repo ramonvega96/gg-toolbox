@@ -53,7 +53,7 @@ function Stage7Modal() {
                         <TextArrowButton
                             topText="Fussy eating resources"
                             bottomText="Grow & Go Toolbox"
-                            link="https://indd.adobe.com/view/7fe8df77-f678-4a65-aecf-cee3cc4c9230"
+                            link="https://indd.adobe.com/view/cb81358e-df5e-4bef-a671-4de86ec185f9"
                         />
                     </div>
                     <div className="xl:w-2/5 flex flex-col">
@@ -103,7 +103,7 @@ function Stage7Modal() {
                 <TextArrowButton
                     topText="Fussy eating resources"
                     bottomText="Grow & Go Toolbox"
-                    link="https://indd.adobe.com/view/7fe8df77-f678-4a65-aecf-cee3cc4c9230"
+                    link="https://indd.adobe.com/view/cb81358e-df5e-4bef-a671-4de86ec185f9"
                 />
                 <div className="h-64">
                     <div className="relative float-right right-[250px] top-[20px]">

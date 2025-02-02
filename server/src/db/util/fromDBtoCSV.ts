@@ -4,7 +4,8 @@ import config from '../../../config.json';
 import path from 'path';
 import { rawResourceKeys } from './types/RawResource';
 import pipelines from './pipelines.json';
-import { sendMail } from '../../helpers/EmailHelper';
+import { sendSESMail, sendSESMailAttachment } from '../../helpers/EmailHelperSES';
+
 
 const parentDir = path.dirname(__dirname);
 const dumpDataFiles = `${parentDir}/data/dump-data-files`;
@@ -293,7 +294,7 @@ export const runGGAnalitycs = async () => {
             await fs.appendFile(pagesAnalitycsDataFile, '\n');
         }
 
-        sendMail(
+        sendSESMailAttachment(
             'Analytics - Result',
             'Analytics extraction script execution SUCCEED. Find results attached.\n',
             [
@@ -311,7 +312,7 @@ export const runGGAnalitycs = async () => {
         await client.close();
     } catch (error) {
         await client.close();
-        sendMail(
+        sendSESMail(
             'Analytics - Result',
             'Analytics extraction script execution FAILED. Access admin panel to execuite it again.'
         );

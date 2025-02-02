@@ -39,7 +39,7 @@ function ReadingFormulaLabelsHP() {
                 </p>
                 <TextArrowButton
                     topText="Download the PDF"
-                    link="https://indd.adobe.com/view/04ee9473-0038-4a6b-acc8-5a8f4c4c180b"
+                    link="https://indd.adobe.com/view/990b0533-5dd7-4b1f-85b1-a2b0d5da59bc"
                 />
             </div>
         </div>

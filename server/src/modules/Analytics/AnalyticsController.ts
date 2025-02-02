@@ -125,10 +125,7 @@ export default (analyticsService: IAnalyticsService): IAnalyticsController => {
                 const resp = await analyticsService.exportTBAnalitycs();
                 if (!resp?.success) throw new Error(resp.message);
 
-                const filePath =
-                    config.NODE_ENV === 'production'
-                        ? './dist/src/db/data/dump-data-files/analitycs_data_tb.csv'
-                        : './src/db/data/dump-data-files/analitycs_data_tb.csv';
+                const filePath = './src/db/data/dump-data-files/analitycs_data_tb.csv';
 
                 res.download(filePath, (err) => {
                     if (err) {
