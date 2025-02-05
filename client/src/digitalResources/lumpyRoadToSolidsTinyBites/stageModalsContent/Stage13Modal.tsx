@@ -26,7 +26,7 @@ function Stage13Modal() {
                         {
                             topText: 'stage13-acc1Bg1Btn1',
                             bottomText: 'stage13-acc1Bg1Btn1Sub',
-                            link: 'https://indd.adobe.com/view/3d2d0879-672f-4d68-8558-43370bccf026',
+                            link: 'https://indd.adobe.com/view/a293a56c-5452-473f-b419-a227c2696c84',
                             icon: 'pdf',
                         },
                     ],
@@ -85,7 +85,7 @@ function Stage13Modal() {
                         {
                             topText: 'stage13-acc3Bg1Btn1',
                             bottomText: 'stage13-acc3Bg1Btn1Sub',
-                            link: 'https://indd.adobe.com/view/e2629a7b-b076-4de1-b723-2bc9afa797f2',
+                            link: 'https://indd.adobe.com/view/8654869a-b7ed-4806-a7d7-83eb9d565eb5',
                             icon: 'pdf',
                         },
                     ],

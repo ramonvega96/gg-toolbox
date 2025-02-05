@@ -22,7 +22,7 @@ function Stage10Modal() {
                         {
                             topText: 'stage10-acc1Bg1Btn1',
                             bottomText: 'stage10-acc1Bg1Btn1Sub',
-                            link: 'https://indd.adobe.com/view/6244d1e7-676c-4d60-acb5-a27db5730c19',
+                            link: 'https://indd.adobe.com/view/86f6e88e-66c7-4318-bb15-fa2e5c2edec2',
                             icon: 'pdf',
                         },
                     ],

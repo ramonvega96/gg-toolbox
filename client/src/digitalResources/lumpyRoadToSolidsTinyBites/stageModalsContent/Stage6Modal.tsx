@@ -36,7 +36,7 @@ function Stage6Modal() {
                         {
                             topText: 'stage6-acc1Bg2Btn1',
                             bottomText: 'stage6-acc1Bg2Btn1Sub',
-                            link: 'https://indd.adobe.com/view/5b5d9335-e136-4d53-b8c6-e12516f7cf7e',
+                            link: 'https://indd.adobe.com/view/1ceef568-1174-41f2-9c0f-db933d3b0642',
                             icon: 'pdf',
                         },
                     ],
@@ -61,7 +61,7 @@ function Stage6Modal() {
                         {
                             topText: 'stage6-acc3Bg1Btn1',
                             bottomText: 'stage6-acc3Bg1Btn1Sub',
-                            link: 'https://indd.adobe.com/view/59017da9-c1e2-423f-bd2d-5ba3885d00f5',
+                            link: 'https://indd.adobe.com/view/99d7b94b-c398-4f52-b8c4-af07565d2c56',
                             icon: 'pdf',
                         },
                     ],
@@ -77,7 +77,7 @@ function Stage6Modal() {
                         {
                             topText: 'stage6-acc4Bg1Btn1',
                             bottomText: 'stage6-acc4Bg1Btn1Sub',
-                            link: 'https://indd.adobe.com/view/c3736c24-9fe6-41a8-9352-7e5c819fc404',
+                            link: 'https://indd.adobe.com/view/348ef80e-fd7d-4581-9105-7a682b79d5c6',
                             icon: 'pdf',
                         },
                     ],

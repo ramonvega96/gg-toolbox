@@ -19,7 +19,7 @@ function Stage1Modal() {
                         {
                             topText: 'stage1-acc1Bg1Btn1',
                             bottomText: 'stage1-acc1Bg1Btn1Sub',
-                            link: 'https://indd.adobe.com/view/0ae32eb7-b41d-4f41-a124-2a1ff509a518',
+                            link: 'https://indd.adobe.com/view/873023ea-68f9-42d0-8a54-611cad9407de',
                             icon: 'pdf',
                         },
                     ],

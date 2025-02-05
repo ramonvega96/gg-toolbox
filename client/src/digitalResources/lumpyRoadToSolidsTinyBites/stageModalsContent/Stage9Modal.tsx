@@ -14,7 +14,7 @@ function Stage9Modal() {
                         {
                             topText: 'stage9-acc1Bg1Btn1',
                             bottomText: 'stage9-acc1Bg1Btn1Sub',
-                            link: 'https://indd.adobe.com/view/f4a96230-7288-45da-8444-e8867fd82d15',
+                            link: 'https://indd.adobe.com/view/84b3ed5e-9591-4c41-83f1-a1486d39bc78',
                             icon: 'pdf',
                         },
                     ],
@@ -35,7 +35,7 @@ function Stage9Modal() {
                         {
                             topText: 'stage9-acc2Bg1Btn1',
                             bottomText: 'stage9-acc2Bg1Btn1Sub',
-                            link: 'https://indd.adobe.com/view/d8374ab5-58b2-4e3d-8076-dd11d424d1b9',
+                            link: 'https://indd.adobe.com/view/d951e70a-1b58-4822-b309-7cc43090137a',
                             icon: 'pdf',
                         },
                     ],

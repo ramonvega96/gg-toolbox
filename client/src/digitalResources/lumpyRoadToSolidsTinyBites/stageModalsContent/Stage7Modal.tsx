@@ -31,7 +31,7 @@ function Stage7Modal() {
                         {
                             topText: 'stage7-acc1Bg2Btn1',
                             bottomText: 'stage7-acc1Bg2Btn1Sub',
-                            link: 'https://indd.adobe.com/view/7029e470-9d86-40c5-87f4-0303a17851ea',
+                            link: 'https://indd.adobe.com/view/44cef73e-8875-405d-8244-ce6aa9ab0e12',
                             icon: 'pdf',
                         },
                     ],
@@ -47,7 +47,7 @@ function Stage7Modal() {
                         {
                             topText: 'stage7-acc2Bg1Btn1',
                             bottomText: 'stage7-acc2Bg1Btn1Sub',
-                            link: 'https://indd.adobe.com/view/4baebcc1-bbc4-43ae-8706-b09ec416eeb8',
+                            link: 'https://indd.adobe.com/view/855f331b-1f02-47e7-935e-bea8221da0e2',
                             icon: 'pdf',
                         },
                     ],

@@ -37,7 +37,7 @@ function Stage8Modal() {
                         {
                             topText: 'stage8-acc1Bg2Btn1',
                             bottomText: 'stage8-acc1Bg2Btn1Sub',
-                            link: 'https://indd.adobe.com/view/e47e05d4-0f9f-496e-8a0b-0df3a4832c57',
+                            link: 'https://indd.adobe.com/view/1769ecf8-bcf6-4a04-ad34-d5ebae40e3aa',
                             icon: 'pdf',
                         },
                     ],
@@ -58,7 +58,7 @@ function Stage8Modal() {
                         {
                             topText: 'stage8-acc2Bg1Btn1',
                             bottomText: 'stage8-acc2Bg1Btn1Sub',
-                            link: 'https://indd.adobe.com/view/5cfab93e-7156-48d9-b7ac-df3abab86038',
+                            link: 'https://indd.adobe.com/view/6b46ba5e-a889-45b3-a083-5ae38cdf83c4',
                             icon: 'pdf',
                         },
                     ],
@@ -74,7 +74,7 @@ function Stage8Modal() {
                         {
                             topText: 'stage8-acc3Bg1Btn1',
                             bottomText: 'stage8-acc3Bg1Btn1Sub',
-                            link: 'https://indd.adobe.com/view/b9ac4a6e-ba1d-4c5c-8a65-b664ee23c09a',
+                            link: 'https://indd.adobe.com/view/c998cdda-e20a-45c2-8eb7-3679adc2e437',
                             icon: 'pdf',
                         },
                     ],
@@ -85,7 +85,7 @@ function Stage8Modal() {
                         {
                             topText: 'stage8-acc3Bg2Btn1',
                             bottomText: 'stage8-acc3Bg2Btn1Sub',
-                            link: 'https://indd.adobe.com/view/59017da9-c1e2-423f-bd2d-5ba3885d00f5',
+                            link: 'https://indd.adobe.com/view/99d7b94b-c398-4f52-b8c4-af07565d2c56',
                             icon: 'pdf',
                         },
                     ],
@@ -110,7 +110,7 @@ function Stage8Modal() {
                 <TextArrowButton
                     topText="Vegetable rainbow treasure hunt "
                     bottomText="Tiny Bites"
-                    link="https://indd.adobe.com/view/bfdaf72f-429e-4979-b6d6-877c18de2536"
+                    link="https://indd.adobe.com/view/3838a9c8-e814-42ef-a04e-18475ffbb8bb"
                     coloursStyling="bg-tbPink hover:bg-tbPinkDark"
                 />
             </div>

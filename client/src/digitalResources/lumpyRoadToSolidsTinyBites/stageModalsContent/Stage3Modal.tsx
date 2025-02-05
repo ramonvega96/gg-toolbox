@@ -56,7 +56,7 @@ function Stage3Modal() {
                         {
                             topText: 'stage3-acc1Bg1Btn1',
                             bottomText: 'stage3-acc1Bg1Btn1Sub',
-                            link: 'https://indd.adobe.com/view/2b0a0f29-1396-461f-8185-2e098849b673',
+                            link: 'https://indd.adobe.com/view/1824bb9b-d351-4dba-a362-85c89eecfe28',
                             icon: 'pdf',
                         },
                         {
@@ -78,7 +78,7 @@ function Stage3Modal() {
                         {
                             topText: 'stage3-acc2Bg1Btn1',
                             bottomText: 'stage3-acc2Bg1Btn1Sub',
-                            link: 'https://indd.adobe.com/view/70ec02f0-7db8-45ab-a326-a87fe780f6f3',
+                            link: 'https://indd.adobe.com/view/f8b8c0d3-0f87-4b93-a787-3ebc05e17efc',
                             icon: 'pdf',
                         },
                     ],
@@ -94,7 +94,7 @@ function Stage3Modal() {
                         {
                             topText: 'stage3-acc3Bg1Btn1',
                             bottomText: 'stage3-acc3Bg1Btn1Sub',
-                            link: 'https://indd.adobe.com/view/30441ad8-7161-4694-b575-c63da3eb9834',
+                            link: 'https://indd.adobe.com/view/50e580e7-d1a3-4dfb-8ecf-eae685a00ffb',
                             icon: 'pdf',
                         },
                     ],
@@ -105,7 +105,7 @@ function Stage3Modal() {
                         {
                             topText: 'stage3-acc3Bg2Btn1',
                             bottomText: 'stage3-acc3Bg2Btn1Sub',
-                            link: 'https://indd.adobe.com/view/70ec02f0-7db8-45ab-a326-a87fe780f6f3',
+                            link: 'https://indd.adobe.com/view/f8b8c0d3-0f87-4b93-a787-3ebc05e17efc',
                             icon: 'pdf',
                         },
                     ],
@@ -121,7 +121,7 @@ function Stage3Modal() {
                         {
                             topText: 'stage3-acc4Bg1Btn1',
                             bottomText: 'stage3-acc4Bg1Btn1Sub',
-                            link: 'https://indd.adobe.com/view/84baf61b-0088-4812-9894-dd955615098d',
+                            link: 'https://indd.adobe.com/view/e7fe989e-ea32-45c6-a4b9-869e356bbf3a',
                             icon: 'pdf',
                         },
                     ],

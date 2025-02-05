@@ -27,7 +27,7 @@ function Stage4Modal() {
                         {
                             topText: 'stage4-acc1Bg1Btn1',
                             bottomText: 'stage4-acc1Bg1Btn1Sub',
-                            link: 'https://indd.adobe.com/view/14cea3d3-92e4-48bf-a797-16ffc3c5d50b',
+                            link: 'https://indd.adobe.com/view/9cd12660-1f17-42b7-8e33-adc1039dfaca',
                             icon: 'pdf',
                         },
                     ],
