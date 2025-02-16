@@ -28,7 +28,7 @@ export async function sendSESMail(
                 Data: emailSubject,
             },
         },
-        Source: 'no-reply@growandgotoolbox.org',
+        Source: 'no-reply@growandgotoolbox.com',
     };
 
     const command = new SendEmailCommand(params);
@@ -47,7 +47,7 @@ export async function sendSESMailAttachment(
         const boundary = `----Boundary-${Date.now()}`;
 
         // Construct the email headers
-        let rawEmail = `From: no-reply@growandgotoolbox.org\n`;
+        let rawEmail = `From: no-reply@growandgotoolbox.com\n`;
         rawEmail += `To: growandgotoolbox@hotmail.com\n`;
         rawEmail += `Subject: ${emailSubject}\n`;
         rawEmail += `MIME-Version: 1.0\n`;
