@@ -149,6 +149,29 @@ export async function getGGTResources() {
     }
 }
 
+export async function getTBResources() {
+    try {
+        const res = await fetch(
+            `${process.env.REACT_APP_BASE_URL}/resource/tbResources`,
+            {
+                method: 'GET',
+            }
+        );
+        const resJSON = await res.json();
+
+        if (resJSON.success) {
+            return resJSON;
+        }
+
+        throw new Error(
+            'Error retrieving TB resources from ' +
+                `${process.env.REACT_APP_BASE_URL}/resource/tbResources`
+        );
+    } catch (e) {
+        console.error(e);
+    }
+}
+
 /**
  * @returns all unique values in specified filter
  */

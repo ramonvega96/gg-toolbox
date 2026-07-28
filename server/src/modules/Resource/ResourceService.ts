@@ -172,6 +172,7 @@ export interface IResourceService {
     >;
     getAllResourcesTags(): Promise<SuccessReturn<string[]> | FailReturn>;
     getGGTResources(): Promise<SuccessReturn<Resource[]> | FailReturn>;
+    getTBResources(): Promise<SuccessReturn<Resource[]> | FailReturn>;
     getUpdatedFilters(
         tags: string[],
         filtersAll: SearchBarFilters,
@@ -221,6 +222,7 @@ export default (resourceRepository: IResourceRepository): IResourceService => {
         getAllResourcesTags: async () =>
             await resourceRepository.getAllResourcesTags(),
         getGGTResources: async () => await resourceRepository.getGGTResources(),
+        getTBResources: async () => await resourceRepository.getTBResources(),
         getUpdatedFilters: async (
             tags: string[],
             filtersAll: SearchBarFilters,

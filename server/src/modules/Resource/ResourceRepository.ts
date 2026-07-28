@@ -63,6 +63,7 @@ export interface IResourceRepository {
     >;
     getAllResourcesTags(): Promise<SuccessReturn<string[]> | FailReturn>;
     getGGTResources(): Promise<SuccessReturn<Resource[]> | FailReturn>;
+    getTBResources(): Promise<SuccessReturn<Resource[]> | FailReturn>;
     getUpdatedFilters(
         tags: string[],
         filtersAll: SearchBarFilters,
@@ -396,6 +397,19 @@ export default (resourceCollection: Collection): IResourceRepository => {
 
             if (!ggtResources) return failure('Cannot find GGT resources');
             return success(ggtResources);
+        },
+        getTBResources: async () => {
+            const tbResources = (
+                await resourceCollection
+                    .find(
+                        { hidden: false, publisher: 'Tiny Bites' },
+                        { projection: { _id: 0 } }
+                    )
+                    .toArray()
+            ).reverse() as unknown[] as Resource[];
+
+            if (!tbResources) return failure('Cannot find TB resources');
+            return success(tbResources);
         },
         getUpdatedFilters: async (
             tags: string[],

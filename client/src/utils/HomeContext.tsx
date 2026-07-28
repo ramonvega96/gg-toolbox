@@ -41,6 +41,8 @@ export function HomePathWayProvider(props: PropsWithChildren) {
                 return 'multiculturalResources';
             case 'grow-go-toolbox':
                 return 'growGoToolbox';
+            case 'tb-resources':
+                return 'tinyBitesResources';
             default:
                 return 'growAndGo';
         }
