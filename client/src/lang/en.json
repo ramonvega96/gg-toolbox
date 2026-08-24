@@ -269,7 +269,7 @@
     "G&GPodcast": "The Grow & Go Podcast: Nutrition in Early Childhood Education and Care",
     "ECECProDev": "Early childhood education professional development",
     "ourResources": "Our resources",
-    "browseCategories": "Browse resource categories",
+    "browseCategories": "Grow & Go categories",
     "aboutUs": "About us",
     "comingSoon": "Coming soon",
     "comingSoonDescription": "This tool is currently in development. Come back soon!",
@@ -1152,5 +1152,11 @@
     "usrEmailModalHeading": "Welcome to Tiny Bite’s Lumpy Road to Solids – your go-to page for all Tiny Bites resources. ",
     "usrEmailModalDesc1": "**__If you are a Tiny Bites Program participant:__**  Please enter your email address in the box below. This will help us work out which resources are the most useful and engaging. Once you’ve done this, you will only be asked to do it again if you’re visiting the page from a different device.",
     "usrEmailModalDesc2": "You can find more information on security and privacy statements in the Participant Information Statement provided at the beginning of the program. Please contact us at tinybites@deakin.edu.au with any concerns.",
-    "usrEmailModalDesc3": "**__If you are not participating in this program:__**  Click here to view the page. "
+    "usrEmailModalDesc3": "**__If you are not participating in this program:__**  Click here to view the page. ",
+    "visitTbResources": "Visit the Tiny Bites Resources page",
+    "tinyBitesResources": "Tiny Bites Resources",
+    "growGoResources": "Grow & Go Resources",
+    "tinyBitesDef": "Tiny Bites is a MRFF-funded collaboration between researchers from GLOBE, Institute for Health Transformation Deakin University, the University of Queensland, the Grow&Go team and the University of Newcastle in partnership with Hunter New England Local Health District, NSW Centre for Population Health, and The Australian Prevention Partnership Centre as part of the Sax Institute.",
+    "learnTeam": "Learn about the team",
+    "resourcesAndCategories": "Resources and Categories"
 }

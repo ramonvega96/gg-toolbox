@@ -185,7 +185,7 @@ function HeaderCategoryContainers(props: HeaderCategoryContainersInterface) {
                     <CategoryButton
                         key="growGoToolbox-header"
                         title={messages.formatMessage({
-                            id: 'growGoToolbox',
+                            id: 'resourcesAndCategories',
                         })}
                         icon="toolbox"
                         color="primaryBlue"

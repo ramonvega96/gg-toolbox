@@ -109,7 +109,15 @@ export const HeaderDropdownContent = (
             return [
                 {
                     title: messages.formatMessage({
-                        id: 'ourResources',
+                        id: 'tinyBitesResources',
+                    }),
+                    navigationFunction: () => {
+                        navigate('/?pathway=tb-resources');
+                    },
+                },
+                {
+                    title: messages.formatMessage({
+                        id: 'growGoResources',
                     }),
                     navigationFunction: () => {
                         navigate('/?pathway=grow-go-toolbox');
@@ -122,15 +130,7 @@ export const HeaderDropdownContent = (
                     navigationFunction: () => {
                         navigate('/browse');
                     },
-                },
-                {
-                    title: messages.formatMessage({
-                        id: 'aboutUs',
-                    }),
-                    navigationFunction: () => {
-                        navigate('/about-us');
-                    },
-                },
+                },                
             ];
     }
 };
