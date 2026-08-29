@@ -83,10 +83,6 @@ export const validatePublisherLogo = (
         throw new Error('publisherLogo is not a valid URL.');
     }
 
-    if (!publisherLogo.includes('https://stluc.manta.uqcloud.net')) {
-        throw new Error('publisherLogo is not in Manta.');
-    }
-
     return publisherLogo.trim();
 };
 

@@ -15,6 +15,7 @@ export const ResourceRouter = (
     router.get('/uniqueFilterValues', resourceController.getFilterValues);
     router.get('/tags', resourceController.getAllResourcesTags);
     router.get('/ggtResources', resourceController.getGGTResources);
+    router.get('/tbResources', resourceController.getTBResources);
     router.post('/updatedFilters', resourceController.getUpdatedFilters);
     router.post('/searchbarQuery', resourceController.getResourcesByFuzzy);
     router.get('/export', resourceController.exportResources);

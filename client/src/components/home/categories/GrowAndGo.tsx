@@ -17,13 +17,9 @@ function GrowAndGo() {
                 search={true}
             />
             <TitleAndRouteButton
-                title={messages.formatMessage({
-                    id: 'lookingResources',
-                })}
-                buttonTitle={messages.formatMessage({
-                    id: 'visitGGResources',
-                })}
-                route="/?pathway=grow-go-toolbox"
+                title={messages.formatMessage({ id: 'visitTbResources' })}
+                buttonTitle={messages.formatMessage({ id: 'tinyBitesResources' })}
+                route="/?pathway=tb-resources"
                 backgroundColor="white"
                 buttonColor="primaryBlue"
                 textColor="primaryBlueDark"
@@ -41,7 +37,19 @@ function GrowAndGo() {
                 scText={messages.formatMessage({ id: 'whoCanHelpDescription' })}
                 scBtnText={messages.formatMessage({ id: 'FHPWhoButton' })}
                 scBtnPath={'/find-a-health-professional'}
-                borderColor={borderColor}
+                borderColor={`${borderColor} border-t-8 border-${borderColor}`}
+            />
+            <TitleAndRouteButton
+                title={messages.formatMessage({
+                    id: 'learnTeam',
+                })}
+                buttonTitle={messages.formatMessage({
+                    id: 'aboutUs',
+                })}
+                route="/about-us"
+                backgroundColor="white"
+                buttonColor="primaryBlue"
+                textColor="primaryBlueDark"
             />
         </div>
     );

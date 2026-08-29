@@ -9,6 +9,7 @@ import ParentsAndFamilies from '../components/home/categories/ParentsAndFamilies
 import EarlyChildhoodEducation from '../components/home/categories/EarlyChildhoodEducation';
 import MulticulturalResources from '../components/home/categories/MulticulturalResources';
 import GrowGoToolbox from '../components/home/categories/GrowGoToolbox';
+import TinyBites from '../components/home/categories/TinyBites';
 
 function Home() {
     const { path } = useContext(HomePathwayContext);
@@ -28,7 +29,9 @@ function Home() {
             case 'multiculturalResources':
                 return 'multicultural-resources';
             case 'growGoToolbox':
-                return 'g&g-resources';
+                return 'g&g-resources';            
+            case 'tinyBitesResources':
+                return 'tb-resources';
             default:
                 return '';
         }
@@ -50,6 +53,8 @@ function Home() {
                 return <MulticulturalResources />;
             case 'growGoToolbox':
                 return <GrowGoToolbox />;
+            case 'tinyBitesResources':
+                return <TinyBites />;
             default:
                 return <GrowAndGo />;
         }

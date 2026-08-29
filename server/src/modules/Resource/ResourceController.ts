@@ -38,6 +38,11 @@ export interface IResourceController {
         res: express.Response,
         next?: express.NextFunction
     ): Promise<express.Response<Resource[] | void>>;
+    getTBResources(
+        req: express.Request,
+        res: express.Response,
+        next?: express.NextFunction
+    ): Promise<express.Response<Resource[] | void>>;
     getUpdatedFilters(
         req: express.Request,
         res: express.Response,
@@ -133,6 +138,19 @@ export default (resourceService: IResourceService): IResourceController => {
         getGGTResources: async (req, res) => {
             try {
                 const resp = await resourceService.getGGTResources();
+                if (!resp?.success) throw new Error(resp.message);
+                return ControllerHelper.successResponse(res, resp.payload);
+            } catch (e) {
+                return ControllerHelper.failResponse(
+                    res,
+                    HttpStatusCode.InternalServerError_500,
+                    e.message
+                );
+            }
+        },
+        getTBResources: async (req, res) => {
+            try {
+                const resp = await resourceService.getTBResources();
                 if (!resp?.success) throw new Error(resp.message);
                 return ControllerHelper.successResponse(res, resp.payload);
             } catch (e) {
